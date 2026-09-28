@@ -72,22 +72,23 @@ RECONCILE is an AI-assisted Disaster Victim Identification system that helps inv
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
-
 ```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+# 1. Clone the repository
+git clone https://github.com/vaibhavchaudhary0239/RECONCILE.git
+cd RECONCILE
 
 # 2. Install dependencies
-[your install command here]
+pip install -r src/requirements.txt
 
 # 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
+cp src/.env.example src/.env
+# Edit src/.env if required
 
-# 4. Run the project
-[your run command here]
+# 4. Run the Admin application
+streamlit run src/dvi_admin_app.py
+
+# OR run the Investigator application
+streamlit run src/dvi_investigator_app.py
 ```
 
 ---
