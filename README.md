@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 RECONCILE - Ante-Mortem & Post-Mortem Reconcilation System
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,36 +8,32 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | 404_Not_Found |
+| **Track** | AI / Sustainability |
+| **Team Lead** | Nimmi — nimmisoni14@gmail.com |
+| **Members** | Anjali, Indrajit, Vaibhav |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+In a mass disaster, every unidentified victim represents a family waiting for answers. The identification process can become slow and overwhelming when large amounts of ante-mortem and post-mortem data must be manually cross-checked. Our project helps forensic and disaster-response teams rapidly find the most probable matches, reducing manual effort and supporting faster, more organized victim identification.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+RECONCILE is an AI-assisted Disaster Victim Identification system that helps investigators reconcile missing-person information with unidentified-body records. It extracts important details from natural-language or structured input, uses State-based searching and multi-factor similarity matching to find the top potential candidates, and presents the matching factors and differences for investigator verification. The system supports investigators in the identification process but does not automatically confirm a victim's identity.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** Natural-Language Information Extraction
+- **Feature 2:** State-Based Search
+- **Feature 3:** Multi-Factor DVI Matching
+- **Feature 4:** Top 3 Explainable Candidates
+- **Feature 5:** Role-Based Investigator & Admin Access
 
 ---
 
@@ -45,11 +41,14 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python |
+| **Frameworks** | Streamlit |
+| **Data Processing** | Pandas |
+| **Database** | CSV |
+| **AI / NLP** | Text Processing & Information Extraction |
+| **Matching** | Weighted Similarity Matching |
+| **Access Control** | Admin & Investigator Roles |
+| **Deployment** | Local / Streamlit-based Application |
 
 ---
 
@@ -106,16 +105,14 @@ cp .env.example .env
 
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- Synthetic DNA References: The DNA field contains synthetic reference IDs and does not perform actual DNA analysis.
+- Prototype-Level Security: Real-world deployment would require stronger privacy protection, access control, forensic validation, and integration with authorized    forensic systems.
+- Limited Scalability: The current prototype uses a CSV-based dataset, so very large datasets would require a more scalable database and optimized searching.
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+We’re proud of building an end-to-end DVI workflow that turns natural-language information into structured attributes, searches and compares unidentified-body records, and produces explainable top-3 potential matches and keeping the system investigator-centric, with clear role separation, state-based search, and human verification rather than automated identity confirmation.
 
 ---
