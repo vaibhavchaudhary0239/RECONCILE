@@ -100,7 +100,7 @@ streamlit run src/dvi_investigator_app.py
 | 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
 | 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
 | 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | presentation/Reconcile.pdf |
+| 📊 Presentation | [View Presentation](presentation/Reconcile.pdf) |
 
 ---
 
